@@ -1,0 +1,28 @@
+body {
+	background: #EFEFBB;
+	background: -webkit-linear-gradient(to right, #34ceda, #942dda);
+	background: linear-gradient(to right, #24b8cc, #601881);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato';
+	margin: 0;
+}
+.Img-COntainer {
+    background-color: rgb(24, 248, 218);
+    border-radius:20px;
+    padding:10px;
+    width:fit-content;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin:20px;
+    text-align:center;
+  }
+.footers{
+    background-color: rgb(65, 223, 202);
+    padding:10px;
+    width:auto;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin:20px;
+  }
