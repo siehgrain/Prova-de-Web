@@ -1,28 +1,73 @@
 body {
-	background: #EFEFBB;
-	background: -webkit-linear-gradient(to right, #34ceda, #942dda);
-	background: linear-gradient(to right, #24b8cc, #601881);
-
+	background: #191919;
+	background: -webkit-linear-gradient(to right, #317b85, #8caacc);
+	background: linear-gradient(to right, rgb(110, 152, 156), 184, 185), #75d1d1;
+  color:white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-family: 'Lato';
-	margin: 0;
+	margin: 10px;
 }
 .Img-COntainer {
-    background-color: rgb(24, 248, 218);
+    background-color: #282828(103, 117, 182);
     border-radius:20px;
     padding:10px;
+    color:white;
     width:fit-content;
-    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.5);
     margin:20px;
     text-align:center;
   }
 .footers{
-    background-color: rgb(65, 223, 202);
+    background-color: #282828(255, 255, 255);
     padding:10px;
+    color:white;
     width:auto;
     box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
     margin:20px;
   }
+ 
+
+/* CSS */
+.button-40 {
+  background-color: #551a8b;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #cdc6db ;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #716983;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
